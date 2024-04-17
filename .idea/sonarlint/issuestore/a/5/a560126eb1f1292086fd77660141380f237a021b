@@ -1,33 +1,31 @@
 
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù’¯Ã8ö—æî1J$e3fdeebf-bd0f-496a-9c4c-8f98340953de
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡°¢Æşÿÿÿÿ8ö—æî1J$c9af4d4b-fe13-47b8-92ca-7a61d5c26f08
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¢šîÿÿÿÿÿ8ö—æî1J$b7174904-8d18-4223-a3ad-7bc10f5f7582
-˜	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÄáÔıÿÿÿÿ8ö—æî1J$e0d90e8a-a4a9-4603-975d-3759c9dbe221
-˜	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÄáÔıÿÿÿÿ8ö—æî1J$0dc4cfa0-aa49-47a0-887f-fe22cc1fe739
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Ú¸°ûÿÿÿÿ8ø—æî1J$d9278da7-1821-42d1-8dc5-8bd2c86e3786
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù’¯Ã8ö—æî1J$abaecc86-1242-4ff0-b58f-d8d29bb0339b
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡°¢Æşÿÿÿÿ8ö—æî1J$b04edc4e-fdf2-4a7b-931b-ec123e873410
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¢šîÿÿÿÿÿ8ö—æî1J$e089df41-4b85-4292-9f57-84bfa03d1205
+˜	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÄáÔıÿÿÿÿ8ö—æî1J$4a61f8b9-867b-4464-b8fe-1dc0a6f1af2e
+˜	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÄáÔıÿÿÿÿ8ö—æî1J$d520d7d6-a715-4f68-a662-586fb6644f5f
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Ú¸°ûÿÿÿÿ8ø—æî1J$25795442-b65f-435a-b7ff-4d7805d55673
 ™
-java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ8©˜æî1J$3c3fa368-62b6-474b-980d-aee37593ec3f
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ8©˜æî1J$b3c7e364-c217-4223-8294-0b041436cd15
 t
-java:S1197",Move the array designators [][] to the type.(æ¯Éûÿÿÿÿ8¯˜æî1J$25e73a0d-9209-465b-b73b-159be20814ec
+java:S1197",Move the array designators [][] to the type.(æ¯Éûÿÿÿÿ8¯˜æî1J$77440619-9e82-4cc3-b53c-0beac7c5d7be
 o
-java:S1197",Move the array designators [][] to the type.(Ú‹–°8¯˜æî1J$a271a6ee-1ce9-420c-a178-be0159cb34dd
+java:S1197",Move the array designators [][] to the type.(Ú‹–°8¯˜æî1J$2d31d8ae-3080-403f-b1b8-c9353ff0c76f
 ”
-java:S3457@"Q%n should be used in place of \n to produce the platform-specific line separator.(…ğÔº8±˜æî1J$31b98830-4d69-41b0-9ac7-d8386d98eeea
-m	java:S106@"+Replace this use of System.out by a logger.(…ğÔº8±˜æî1J$7503578d-fea1-41ae-a774-d3a67fdffb50
-ƒ	java:S1259"<This block of commented-out lines of code should be removed.(ˆ“Èæùÿÿÿÿ8±˜æî1J$454fa3fe-053f-4c4f-a0c7-7afe48a8d898
-~	java:S125="<This block of commented-out lines of code should be removed.(¯«‚Ú8²˜æî1J$cd716533-89b8-4128-8fd0-47855d24dbba
-r	java:S106A"+Replace this use of System.out by a logger.(¦”öÔüÿÿÿÿ8²˜æî1J$375f429c-e1c2-4904-b875-4cc984a881b7
+java:S3457@"Q%n should be used in place of \n to produce the platform-specific line separator.(…ğÔº8±˜æî1J$1f7790c1-828f-404e-a62b-867304da9a53
+m	java:S106@"+Replace this use of System.out by a logger.(…ğÔº8±˜æî1J$ae382d8b-597e-4e25-98d2-7a0e6097b696
+ƒ	java:S1259"<This block of commented-out lines of code should be removed.(ˆ“Èæùÿÿÿÿ8±˜æî1J$0390489b-e3eb-4592-ae88-9d7e2e715937
+~	java:S125="<This block of commented-out lines of code should be removed.(¯«‚Ú8²˜æî1J$063be063-0b5e-40b9-9d1e-1a519a6a9104
+r	java:S106A"+Replace this use of System.out by a logger.(¦”öÔüÿÿÿÿ8²˜æî1J$b1673956-8e46-4359-817e-29fb15871802
 n
-java:S1168F"&Return an empty array instead of null.(¬×áÉøÿÿÿÿ8³˜æî1J$ca440077-302c-4a93-a3c0-d071a15a0a02
-r	java:S106j"+Replace this use of System.out by a logger.(Öˆ¡ûÿÿÿÿ8´˜æî1J$fb2bfc4d-a209-4a8b-aca3-2605109c6f25
-r	java:S106p"+Replace this use of System.out by a logger.(ê •÷şÿÿÿÿ8µ˜æî1J$d302b30e-781d-4a83-a941-378fe9bdb5b0
-r	java:S106s"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8µ˜æî1J$9bdb41ec-b71a-46be-885a-f4ff91262c27
-r	java:S106u"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8µ˜æî1J$3b31d053-47ef-40e8-af59-d548e046188f
-r	java:S106v"+Replace this use of System.out by a logger.(¤å‚çüÿÿÿÿ8µ˜æî1J$6172ef3c-32fd-48ca-a2a7-df5cf4460574
+java:S1168F"&Return an empty array instead of null.(¬×áÉøÿÿÿÿ8³˜æî1J$b340763a-26f1-4dd1-8073-9f88da509001
+r	java:S106j"+Replace this use of System.out by a logger.(Öˆ¡ûÿÿÿÿ8´˜æî1J$cc780fd3-cf42-4569-b54e-93890c2f59da
+r	java:S106p"+Replace this use of System.out by a logger.(ê •÷şÿÿÿÿ8µ˜æî1J$7b5a5c99-d428-427b-b51f-55b512a41b66
+r	java:S106s"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8µ˜æî1J$813129f2-1721-4ea0-b0d7-fcaf39fae729
+r	java:S106u"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8µ˜æî1J$cd0cf714-fc71-4719-97f5-f02b6e50b441
+r	java:S106v"+Replace this use of System.out by a logger.(¤å‚çüÿÿÿÿ8µ˜æî1J$774f6d7a-bda9-4a20-a8b9-9d4355c8928b
 }
-java:S1118y":Add a private constructor to hide the implicit public one.(¾¿„ä8¶˜æî1J$cf7eeaf5-3b67-4ebc-8b09-4ad455b775c6
+java:S1118y":Add a private constructor to hide the implicit public one.(¾¿„ä8¶˜æî1J$a86d29f1-927d-4e77-a594-5ed0342c1b2e
 ~
-java:S1161¢":Add the "@Override" annotation above this method signature(“–ış8¹˜æî1J$c5483350-60c4-4012-bdef-7e5f00ecab9c
-I
-java:S1481¦",Remove this unused "tempsum" local variable.(¬°é/8íÚ¡æî1
-m	java:S106¯"+Replace this use of System.out by a logger.(¼×³!8º˜æî1J$eb2635bf-f2d0-429e-8832-97d613ff8ac8
+java:S1161¢":Add the "@Override" annotation above this method signature(“–ış8¹˜æî1J$97c8112c-4c42-4d2e-95a9-c407e574530a
+m	java:S106®"+Replace this use of System.out by a logger.(¼×³!8º˜æî1J$ebc2cdb2-44d4-4ecf-a975-7bb0c13c7160

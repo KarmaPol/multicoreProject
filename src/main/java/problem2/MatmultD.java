@@ -163,7 +163,6 @@ public class MatmultD
       long startTime = System.currentTimeMillis();
       for(int i = start; i < end; i++) {
         for(int j = 0; j < b[0].length; j++) {
-          int tempsum = 0;
           for(int k = 0; k < a[0].length; k++) {
             matrixC[i][j].addAndGet(a[i][k] * b[k][j]);
           }
