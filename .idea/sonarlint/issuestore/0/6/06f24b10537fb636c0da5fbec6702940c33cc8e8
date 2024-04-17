@@ -1,13 +1,13 @@
 
-	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËÕ–”8úÿ¢Àî1J$f033bf2d-1098-4c25-a0ad-a5da202e27f7
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•×•8ÿÿ¢Àî1J$085c9cca-0da0-4926-afdb-a2b98885097a
+	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËÕ–”8úÿ¢Àî1J$8533ba4e-114d-494c-b227-b381b8749a95
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•×•8ÿÿ¢Àî1J$25b7e84f-66cc-4cbb-a386-72372ffeafe4
 •
-java:S3008"RRename this field "NUM_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“ş¤8‡€£Àî1J$196d717a-21a5-408d-a1bc-cc246e9dc246
+java:S3008"RRename this field "NUM_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“ş¤8‡€£Àî1J$41a6cb40-e8a8-47c3-815e-5cc0c839ae44
 ™
-java:S3008"VRename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¸¢°8‡€£Àî1J$6806fcf3-f531-4ccd-a727-34b6f1397bea
-m	java:S1062"+Replace this use of System.out by a logger.(‰£Öò8€£Àî1J$5284d7c8-1f55-4ffd-9ef0-0aed3b2486d2
-r	java:S1063"+Replace this use of System.out by a logger.(œÖÕıÿÿÿÿ8€£Àî1J$347faf67-8070-4c91-a20c-0f449a4e6a2e
+java:S3008"VRename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ı£8‡€£Àî1J$edaeca06-3664-4628-92c6-6dff6cbfc2e2
+m	java:S1062"+Replace this use of System.out by a logger.(‰£Öò8€£Àî1J$1694227a-c32b-4184-95f2-4882d79b0de2
+r	java:S1063"+Replace this use of System.out by a logger.(œÖÕıÿÿÿÿ8€£Àî1J$56677796-3f38-4ff9-ad69-f150e3530b3e
 s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8µÖØÀî1J$e6031a97-9b40-4f0b-a9fa-b2b1ad1d4f59
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8µÖØÀî1J$5ac2c748-7083-4b3d-a0f2-b58cda817055
 s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8µÖØÀî1J$535528ac-bb3b-4b01-8397-df6186d16593
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8µÖØÀî1J$37346fc3-2227-4cb1-a7ca-fc9190f86af5

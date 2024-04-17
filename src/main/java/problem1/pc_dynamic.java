@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class pc_dynamic {
 	private static AtomicInteger counter = new AtomicInteger(0);
 	private static int NUM_END = 200000;
-	private static int NUM_THREADS = 2;
+	private static int NUM_THREADS = 32;
 
 	public static void main(String[] args) {
 		if(args.length == 2) {

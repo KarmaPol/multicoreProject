@@ -1,0 +1,31 @@
+
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù’¯Ã8Œ¦Şî1J$98217bd0-1141-4948-bf28-8afe4689577b
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡°¢Æşÿÿÿÿ8ŸŒ¦Şî1J$b2321584-1c7a-40ed-9c59-3dbf4270d6dc
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¢šîÿÿÿÿÿ8ŸŒ¦Şî1J$d57749eb-c6ec-4ea5-9fcb-7bce1498a3b2
+˜	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÄáÔıÿÿÿÿ8ŸŒ¦Şî1J$973c9227-2670-421d-8500-aa2f761a5add
+˜	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÄáÔıÿÿÿÿ8ŸŒ¦Şî1J$eee2ab25-7312-403d-8dd0-608ec44f2fb3
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Ú¸°ûÿÿÿÿ8¡Œ¦Şî1J$746d4e52-77db-4ce3-84f4-c796a60d0c46
+
+java:S2259:"K"NullPointerException" will be thrown when invoking method "printMatrix()".(Ÿ·¦8¨°Şî1J$bb5c41e9-cdeb-4b5c-ac81-5fc3fda16567
+™
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ8¼Œ¦Şî1J$f3d36f2e-326f-46ba-8e4e-b8a894f4a339
+t
+java:S1197",Move the array designators [][] to the type.(æ¯Éûÿÿÿÿ8ÀŒ¦Şî1J$a3aca590-cc94-40b5-9c3d-28c0a342fbe0
+o
+java:S1197",Move the array designators [][] to the type.(Ú‹–°8ÀŒ¦Şî1J$911e70b1-9562-4bc0-8d29-a39213708ede
+ƒ	java:S1258"<This block of commented-out lines of code should be removed.(ˆ“Èæùÿÿÿÿ8ÁŒ¦Şî1J$d07c91b5-9fc6-4d3d-b45d-6606fd7312e8
+”
+java:S3457?"Q%n should be used in place of \n to produce the platform-specific line separator.(…ğÔº8ÂŒ¦Şî1J$2766e328-12a4-4831-843f-3b7f593caf1a
+m	java:S106?"+Replace this use of System.out by a logger.(…ğÔº8ÂŒ¦Şî1J$f173020d-4c12-4acb-a7e7-525d51fec975
+~	java:S125<"<This block of commented-out lines of code should be removed.(¯«‚Ú8ÂŒ¦Şî1J$5ceb7515-d0e2-4f0e-89db-7c1f1c058a6a
+n
+java:S1168D"&Return an empty array instead of null.(¬×áÉøÿÿÿÿ8ÂŒ¦Şî1J$7bbe5b24-e270-46df-8c49-b6569b842bf1
+r	java:S106h"+Replace this use of System.out by a logger.(Öˆ¡ûÿÿÿÿ8ÃŒ¦Şî1J$a8c912e5-d8f5-4d66-b6d9-f81e84d1e51e
+r	java:S106n"+Replace this use of System.out by a logger.(ê •÷şÿÿÿÿ8ÄŒ¦Şî1J$cefd39e3-aa7c-4de5-be5d-618993307132
+r	java:S106q"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÄŒ¦Şî1J$39b76a44-a5bf-4e9d-85b0-73e0daa3d8bd
+r	java:S106s"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÄŒ¦Şî1J$a61bc539-260d-4d89-83a6-df9a73622d8e
+r	java:S106t"+Replace this use of System.out by a logger.(¤å‚çüÿÿÿÿ8ÄŒ¦Şî1J$49651573-d02c-434e-8625-7396c5d2a17d
+}
+java:S1118w":Add a private constructor to hide the implicit public one.(¾¿„ä8ÄŒ¦Şî1J$c00d79a4-0546-4a74-953f-c7e3108a9f2c
+~
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8ÆŒ¦Şî1J$bdcbe027-2d1b-447b-8c59-1ae8e532bcd5
