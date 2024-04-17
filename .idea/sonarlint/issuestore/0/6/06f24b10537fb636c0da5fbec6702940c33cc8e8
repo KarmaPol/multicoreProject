@@ -1,13 +1,18 @@
 
-	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËÕ–”8úÿ¢Àî1J$8533ba4e-114d-494c-b227-b381b8749a95
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•×•8ÿÿ¢Àî1J$25b7e84f-66cc-4cbb-a386-72372ffeafe4
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËÕ–”8 Ù¬èî1J$60d0e8b9-3e41-4c27-be4b-1a67e7a13200
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•×•8¡Ù¬èî1J$7145e47a-fc26-4918-9ab6-8bbf9a71d6ba
 •
-java:S3008"RRename this field "NUM_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“ş¤8‡€£Àî1J$41a6cb40-e8a8-47c3-815e-5cc0c839ae44
+java:S3008"RRename this field "NUM_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“ş¤8ŞÙ¬èî1J$f482d145-b2b6-4e89-9dae-c26827a3e7f9
 ™
-java:S3008"VRename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ı£8‡€£Àî1J$edaeca06-3664-4628-92c6-6dff6cbfc2e2
-m	java:S1062"+Replace this use of System.out by a logger.(‰£Öò8€£Àî1J$1694227a-c32b-4184-95f2-4882d79b0de2
-r	java:S1063"+Replace this use of System.out by a logger.(œÖÕıÿÿÿÿ8€£Àî1J$56677796-3f38-4ff9-ad69-f150e3530b3e
+java:S3008"VRename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ı£8œÌµèî1J$7ab571bb-5da9-40ec-b0ca-0e2e0c1eabe2
+m	java:S1068"+Replace this use of System.out by a logger.(‰£Öò8äêµèî1J$e7fd958d-9df5-4512-b9ca-72ff9852afa5
+X	java:S1255"<This block of commented-out lines of code should be removed.(ş±É³8ïÑóèî1
+r	java:S1069"+Replace this use of System.out by a logger.(œÖÕıÿÿÿÿ8¥ËÒèî1J$43710fe1-7e04-4275-94bd-02f088139855
 s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8µÖØÀî1J$5ac2c748-7083-4b3d-a0f2-b58cda817055
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8£şËèî1J$45b3eb82-bed9-4b42-b556-92d0f9ae0d61
 s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8µÖØÀî1J$37346fc3-2227-4cb1-a7ca-fc9190f86af5
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8£şËèî1J$a3ef09af-3a93-4cdd-97ea-3bbdf85ac55c
+}
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8•¿ñèî1J$8d572503-d5a5-4967-a0f9-36ff3ffce414
+t
+java:S1068"1Remove this unused "taskDurations" private field.(Ô‹8–¿ñèî1J$aaf21c56-2393-4baa-b416-62693190fde9

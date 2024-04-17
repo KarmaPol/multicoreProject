@@ -2,14 +2,17 @@ package problem1;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class pc_dynamic {
 	private static AtomicInteger counter = new AtomicInteger(0);
 	private static int NUM_END = 200000;
 	private static int NUM_THREADS = 32;
+	private static ConcurrentHashMap<Integer, Long> taskDurations = new ConcurrentHashMap<>();
 
 	public static void main(String[] args) {
 		if(args.length == 2) {
@@ -44,9 +47,12 @@ public class pc_dynamic {
 			// 모든 태스크 종료 후 메인 스레드 종료되도록 대기
 		}
 
-
 		long endTime = System.currentTimeMillis();
 		long timeDiff = endTime - startTime;
+
+		// for(int i = 0; i < NUM_THREADS; i++) {
+		// 	System.out.println("[thread #" + i + "] completed in " + timeDiff + " ms");
+		// }
 		System.out.println("Program Execution Time: " + timeDiff + "ms");
 		System.out.println("1..." + (NUM_END-1) + " prime# counter=" + counter.get());
 	}

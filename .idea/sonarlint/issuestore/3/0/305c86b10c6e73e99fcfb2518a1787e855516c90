@@ -1,19 +1,20 @@
 
-”	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™Øã±ıÿÿÿÿ8ùò€Àî1J$23412f71-36ea-459f-9efd-4d4a3f977446
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•×•8ûò€Àî1J$32fa1b84-c9c1-4046-b91d-b9b6d78c46e0
+”	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™Øã±ıÿÿÿÿ8ùò€Àî1J$988a36f4-9227-45ae-abfa-bd4eb15ceaed
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•×•8ûò€Àî1J$9746a770-5865-41de-9e72-eeebab576dc4
 •
-java:S3008"RRename this field "NUM_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“ş¤8…ó€Àî1J$53001f06-aca6-411f-821d-97ec2f1d448b
+java:S3008"RRename this field "NUM_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“ş¤8…ó€Àî1J$7985b91c-4be9-41a8-ba0e-cce07896018c
 ™
-java:S3008"VRename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ı£8…ó€Àî1J$65d216af-5adc-4df7-9458-3a1ec27d52f6
-m	java:S106$"+Replace this use of System.out by a logger.(‰£Öò8‰ó€Àî1J$924ee583-a449-4cb9-85b0-0b27d0dc86f5
-r	java:S106%"+Replace this use of System.out by a logger.(œÖÕıÿÿÿÿ8‰ó€Àî1J$04f91011-2e30-4b22-9fa5-c6f63709e39c
+java:S3008"VRename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ı£8…ó€Àî1J$9613156b-6f88-4bab-b7a1-6a243667dcb2
+m	java:S106$"+Replace this use of System.out by a logger.(‰£Öò8‰ó€Àî1J$497f24cd-025a-4483-8200-0c1bf194485b
+r	java:S106%"+Replace this use of System.out by a logger.(œÖÕıÿÿÿÿ8‰ó€Àî1J$29255c4f-8059-4ffe-8aac-5ddf2919ba59
 }
-java:S1118(":Add a private constructor to hide the implicit public one.(¥–ıØ8‰ó€Àî1J$3d8508e3-80cb-4d9b-9624-0cab05347612
+java:S1118(":Add a private constructor to hide the implicit public one.(¥–ıØ8‰ó€Àî1J$9c354110-84c0-4e19-b693-b03e3ffbefc4
 i
-java:S16592"!Declare "end" on a separate line.(¯™Ï˜úÿÿÿÿ8Šó€Àî1J$08fa129f-1390-4c55-8725-0abf1c5e083f
+java:S16592"!Declare "end" on a separate line.(¯™Ï˜úÿÿÿÿ8Šó€Àî1J$3d5b66fd-bd14-487b-9bc8-306140bac05e
 }
-java:S1161X":Add the "@Override" annotation above this method signature(“–ış8Œó€Àî1J$326869b8-8c83-4f17-b5ef-5326d2b595c8
+java:S1161Z":Add the "@Override" annotation above this method signature(“–ış8Œó€Àî1J$fe9f82d1-4577-4ea8-9dac-6478953be316
+F	java:S106g"+Replace this use of System.out by a logger.(¼×³!8åÛ×èî1
 u
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ó€Àî1J$1a9630d9-f2d8-497f-bf9b-f58e7a3ed40b
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8˜Ä·çî1J$765aaf89-85b7-4ed8-88a1-3a4fe6cf64c2
 g
-java:S3398e"$Move this method into "PrimeThread".(òáÌ”8ó€Àî1J$82be6fd9-f84f-4713-b0ec-01e6ed984d7d
+java:S3398k"$Move this method into "PrimeThread".(òáÌ”8ó€Àî1J$c55b9af8-eef8-4b4e-bfda-8ca5b0e82dd0

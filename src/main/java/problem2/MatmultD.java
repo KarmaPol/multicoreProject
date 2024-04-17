@@ -15,12 +15,13 @@ public class MatmultD
 {
   private static Scanner sc = new Scanner(System.in);
   private static AtomicInteger[][] matrixC;
+  private static AtomicInteger sum = new AtomicInteger(0);
 
   public static void main(String [] args) throws InterruptedException {
     int thread_no=0;
     if (args.length==1) thread_no = Integer.valueOf(args[0]);
     else thread_no = 1;
-        
+
     int a[][]=readMatrix();
     int b[][]=readMatrix();
 
@@ -43,7 +44,7 @@ public class MatmultD
     for(int i = 0; i < thread_no; i++) {
       int start = sections.get(i).start;
       int end = sections.get(i).end;
-      MultMatrixThread mt = new MultMatrixThread(a, b, start, end);
+      MultMatrixThread mt = new MultMatrixThread(i, a, b, start, end);
       threads[i] = mt;
       mt.start();
     }
@@ -55,12 +56,13 @@ public class MatmultD
 
     //printMatrix(a);
     //printMatrix(b);    
-    printMatrix(convertAtomicIntegerMatrixToIntMatrix());
+    // printMatrix(convertAtomicIntegerMatrixToIntMatrix());
 
     //System.out.printf("thread_no: %d\n" , thread_no);
     //System.out.printf("Calculation Time: %d ms\n" , endTime-startTime);
 
     System.out.printf("[thread_no]:%2d , [Time]:%4d ms\n", thread_no, endTime-startTime);
+    System.out.println("Matrix Sum = " + sum.get() + "\n");
   }
 
   public static int[][] convertAtomicIntegerMatrixToIntMatrix() {
@@ -143,12 +145,14 @@ public class MatmultD
   }
 
   static class MultMatrixThread extends Thread {
+    int taskNumber;
     int[][] a;
     int[][] b;
     int start;
     int end;
 
-    MultMatrixThread(int[][] a, int[][] b, int start, int end) {
+    MultMatrixThread(int taskNumber, int[][] a, int[][] b, int start, int end) {
+      this.taskNumber = taskNumber;
       this.a = a;
       this.b = b;
       this.start = start;
@@ -156,13 +160,19 @@ public class MatmultD
     }
 
     public void run() {
+      long startTime = System.currentTimeMillis();
       for(int i = start; i < end; i++) {
         for(int j = 0; j < b[0].length; j++) {
+          int tempsum = 0;
           for(int k = 0; k < a[0].length; k++) {
             matrixC[i][j].addAndGet(a[i][k] * b[k][j]);
           }
+          sum.addAndGet(matrixC[i][j].get());
         }
       }
+      long endTime = System.currentTimeMillis();
+      long duration = endTime - startTime;
+      System.out.println("[thread #" + taskNumber + "] completed in " + duration + " ms");
     }
   }
 }

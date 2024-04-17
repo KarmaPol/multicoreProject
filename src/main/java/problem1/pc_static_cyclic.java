@@ -22,7 +22,7 @@ public class pc_static_cyclic {
 		Thread[] threads = new Thread[NUM_THREADS];
 
 		for(int i = 0; i < NUM_THREADS; i++) {
-			PrimeThread pt = new PrimeThread(sections.get(i));
+			PrimeThread pt = new PrimeThread(i, sections.get(i));
 			threads[i] = pt;
 			pt.start();
 		}
@@ -79,13 +79,16 @@ public class pc_static_cyclic {
 	}
 
 	static class PrimeThread extends Thread {
+		int taskNumber;
 		List<LoadBalancerStaticCyclic.Section> sections;
 
-		PrimeThread(List<LoadBalancerStaticCyclic.Section> sections) {
+		PrimeThread(int taskNumber, List<LoadBalancerStaticCyclic.Section> sections) {
+			this.taskNumber = taskNumber;
 			this.sections = sections;
 		}
 
 		public void run() {
+			long startTime = System.currentTimeMillis();
 			sections.forEach(section -> {
 				int start = section.start;
 				int end = section.end;
@@ -95,6 +98,9 @@ public class pc_static_cyclic {
 					}
 				}
 			});
+			long endTime = System.currentTimeMillis();
+			long duration = endTime - startTime;
+			System.out.println("[thread #" + taskNumber + "] completed in " + duration + " ms");
 		}
 	}
 

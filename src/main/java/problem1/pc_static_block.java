@@ -22,7 +22,7 @@ public class pc_static_block {
 		for(int i = 0; i < NUM_THREADS; i++) {
 			int start = sections.get(i).start;
 			int end = sections.get(i).end;
-			PrimeThread pt = new PrimeThread(start, end);
+			PrimeThread pt = new PrimeThread(i, start, end);
 			threads[i] = pt;
 			pt.start();
 		}
@@ -64,20 +64,26 @@ public class pc_static_block {
 	}
 
 	static class PrimeThread extends Thread {
+		int taskNumber;
 		int start;
 		int end;
 
-		PrimeThread(int start, int end) {
+		PrimeThread(int taskNumber, int start, int end) {
+			this.taskNumber = taskNumber;
 			this.start = start;
 			this.end = end;
 		}
 
 		public void run() {
+			long startTime = System.currentTimeMillis();
 			for(int i = start; i < end; i++) {
 				if(isPrime(i)) {
 					counter.incrementAndGet();
 				}
 			}
+			long endTime = System.currentTimeMillis();
+			long duration = endTime - startTime;
+			System.out.println("[thread #" + taskNumber + "] completed in " + duration + " ms");
 		}
 	}
 

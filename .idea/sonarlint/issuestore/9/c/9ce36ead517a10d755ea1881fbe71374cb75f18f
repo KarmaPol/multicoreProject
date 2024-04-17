@@ -1,16 +1,17 @@
 
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Â•ëA8´Úë´î1J$7133cd38-2515-4efd-90fc-bd77d8d73d72
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•×•8¶Úë´î1J$5c8b48fb-6b5a-4a9f-b74e-e612942655af
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Â•ëA8´Úë´î1J$2598bc5e-6f17-48d6-92e4-7f57dab94189
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•×•8¶Úë´î1J$65733097-34d2-47de-b9c8-5f19b583a37a
 •
-java:S3008	"RRename this field "NUM_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“ş¤8ÅÚë´î1J$0081b5ac-9be1-4e18-8f13-976fe424a8ac
+java:S3008	"RRename this field "NUM_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“ş¤8ÅÚë´î1J$9e2ed2e0-d98a-4fdd-ba2b-1894acf0589c
 ™
 java:S3008
-"VRename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ı£8ÅÚë´î1J$daec1c7b-628e-4bd9-876f-501730e77784
-m	java:S106$"+Replace this use of System.out by a logger.(‰£Öò8ÎÚë´î1J$13cd2be2-b220-43d5-a81a-ff13cec14877
-r	java:S106%"+Replace this use of System.out by a logger.(œÖÕıÿÿÿÿ8ÏÚë´î1J$892710e9-c4bd-4143-b4c7-38b0723d7d58
+"VRename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ı£8ÅÚë´î1J$1a93b198-8768-4ce9-bf97-acc4fbb6d415
+m	java:S106$"+Replace this use of System.out by a logger.(‰£Öò8ÎÚë´î1J$3adfafeb-5104-4697-864c-d7e5d95e0740
+r	java:S106%"+Replace this use of System.out by a logger.(œÖÕıÿÿÿÿ8ÏÚë´î1J$4f05c377-8263-4aef-a41b-6e7c202cca1c
 }
-java:S1118(":Add a private constructor to hide the implicit public one.(¾¿„ä8ĞÚë´î1J$e750f33d-d9a4-4372-85cf-e0eba5832d31
+java:S1118(":Add a private constructor to hide the implicit public one.(¾¿„ä8ĞÚë´î1J$964bc19e-bb53-4032-96d8-96f2011f57fa
 }
-java:S1161K":Add the "@Override" annotation above this method signature(“–ış8ÕÚë´î1J$be0c2f6e-1bcd-4bcc-b140-94d8937d3eab
+java:S1161M":Add the "@Override" annotation above this method signature(“–ış8ÕÚë´î1J$22ffb682-832a-440c-8412-7d77117b02b9
+l	java:S106V"+Replace this use of System.out by a logger.(¼×³!8ı£±çî1J$be353a41-e00d-4ffa-a812-81cf6747210c
 g
-java:S3398T"$Move this method into "PrimeThread".(òáÌ”8×Úë´î1J$7d39267d-1a7d-4e5b-b327-04992a7308bd
+java:S3398Z"$Move this method into "PrimeThread".(òáÌ”8×Úë´î1J$6d3db5da-7aa0-4134-8b4b-b9fe348ddb75
